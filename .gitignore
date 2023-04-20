@@ -4,3 +4,5 @@ Backend_ToDo/package-lock.json
 Frontend_ToDo/node_modules/
 Frontend_ToDo/.netlify/
 Frontend_ToDo/package-lock.json
+node_modules
+package-lock.json
