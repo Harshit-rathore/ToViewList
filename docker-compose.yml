@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: frontend-img
+    container_name: frontendserver
+    ports: 
+      - 3001:3000
+    volumes:
+      - logvolume02:/app
+    tty: true
+  backend:
+    image: backendimg3
+    container_name: backendserver
+    ports: 
+      - 3006:3005
+    env_file:
+      - ./Backend_ToDo/.env
+    volumes:
+      - logvolume01:/app
+volumes: 
+  logvolume01: {}
+  logvolume02: {}
