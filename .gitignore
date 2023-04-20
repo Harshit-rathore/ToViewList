@@ -1,0 +1,6 @@
+Backend_ToDo/node_modules/
+Backend_ToDo/.netlify/
+Backend_ToDo/package-lock.json
+Frontend_ToDo/node_modules/
+Frontend_ToDo/.netlify/
+Frontend_ToDo/package-lock.json
